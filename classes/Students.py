@@ -1,3 +1,4 @@
+
 class Student:
     def __init__(self, name, age): #init - конструктор, все параметры вносить в них
         self.name = str(name)
@@ -5,9 +6,18 @@ class Student:
         print('Студент', name, age, 'лет', 'внесен в БД')
         #init может быть только один
 
-#Student2 = Student() #тут будет ошибка, так как нет параметров
-Student1 = Student('Вася', 17) #в скобках параметры конструктора
-Student3 = Student('Петя', 20)
-Student4 = Student(10, 10) #ВОПРОС: почему не ругается???
+name = str(input("Введите имя студента: ")) #Почему даёт ввести цифры???
+age = int(input("Введите возраст студента: "))
 
-print(dir(Student)) #dir показывает пространство имен
+student = Student(name, age)
+
+#Student2 = Student() #тут будет ошибка, так как нет параметров
+#Student1 = Student('Вася', 17) #в скобках параметры конструктора
+#Student3 = Student('Петя', 20)
+#Student4 = Student(10, 10) #ВОПРОС: почему не ругается???
+
+#print(dir(Student)) #dir показывает пространство имен
+#Student()
+
+
+

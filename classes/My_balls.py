@@ -17,7 +17,6 @@ class Ball:
                                           self.x + self.R,
                                           self.y + self.R,
                                           fill='green')
-
     def move(self):
         self.x += self.dx
         self.y += self.dy
