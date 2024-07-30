@@ -6,6 +6,7 @@ from random import randint
 WIDTH = 300
 HEIGH = 200
 
+
 class Ball:
     """Ниже конструктор, R - радиус, x/y - оси, dx/dy"""
     def __init__(self):
