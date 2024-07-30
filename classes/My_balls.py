@@ -7,6 +7,7 @@ WIDTH = 300
 HEIGH = 200
 
 class Ball:
+    """Ниже конструктор, R - радиус, x/y - оси, dx/dy"""
     def __init__(self):
         self.R = randint(20, 50)
         self.x = randint(self.R, WIDTH - self.R)
